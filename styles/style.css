@@ -1,0 +1,35 @@
+body {
+    background-color: #F4DFB6;
+    color: #555843;
+
+}
+
+div {
+    font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+h2 {
+    background-color: #A7D397;
+}
+
+a {
+    text-decoration: none;
+}
+
+#desserts {
+    font-size: 28px;
+}
+
+#desserts li a {
+    color: #555843;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 800;
+}
