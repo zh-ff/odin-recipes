@@ -1,24 +1,74 @@
-body {
-    background-color: #F4DFB6;
-    color: #555843;
+* {
+    /* line-height: 1.5; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px dotted cornflowerblue; */
+}
 
+
+body {
+    background-color: #F9E0BB;
+    color: #884A39;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.recipe1-card {
+    width: 800px;
+    margin: 1em auto;
+    padding: 1em;
+    border: 0.2em solid saddlebrown;
+    background-color: ;
+}
+
+.recipe1-content {
+    width: 450px;
 }
 
 div {
     font-family: 'JetBrains Mono', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.pudding-description {
+    display: inline-block;
+}
+
 img {
+    display: inline-block;
+    width: 300px;
     height: auto;
-    width: 400px;
+    vertical-align: top;
+}
+
+.recipe1-content {
+    display: inline-block;
+}
+
+.info {
+    width: 800px;
+    height: auto;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.recipe-info {
+    display: block;
+}
+
+.recipe1-card a {
+    display: block;
+    background-color: #C38154;
+    color: #F9E0BB;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 2em;
 }
 
 h2 {
-    background-color: #A7D397;
-}
-
-a {
-    text-decoration: none;
+    background-color: #FFC26F;
 }
 
 #desserts {
@@ -32,4 +82,13 @@ a {
 .description {
     font-size: 20px;
     font-weight: 800;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
 }
